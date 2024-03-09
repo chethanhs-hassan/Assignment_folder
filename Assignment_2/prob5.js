@@ -1,13 +1,19 @@
 let arr = [1,3,2,4,7,8,9];
+function adding(input){
 let sum = 0;
-for(let i=0;i<arr.length;i++){
+for(let i=0;i<input.length;i++){
     sum +=arr[i];
 }
-console.log(sum)
+return sum;
+}
+console.log(adding(arr))
+function adding1(input1){
 let sum1=0;
 let j =0;
-while(j<arr.length){
+while(j<input1.length){
     sum1 +=arr[j]
     j++
 }
-console.log(sum1);
+return sum1;
+}
+console.log(adding1(arr));
