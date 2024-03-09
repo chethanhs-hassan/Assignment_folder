@@ -1,4 +1,5 @@
 let arr = [1,3,2,4,7,8,9];
+//for loop
 function adding(input){
 let sum = 0;
 for(let i=0;i<input.length;i++){
@@ -7,6 +8,7 @@ for(let i=0;i<input.length;i++){
 return sum;
 }
 console.log(adding(arr))
+//whiel loop
 function adding1(input1){
 let sum1=0;
 let j =0;
