@@ -1,3 +1,4 @@
+//Declare an array and sum of all values in an array using loops - for, while — Use functions
 let arr = [1,3,2,4,7,8,9];
 //for loop
 function adding(input){
@@ -19,3 +20,7 @@ while(j<input1.length){
 return sum1;
 }
 console.log(adding1(arr));
+/* output:
+34
+34
+*/
