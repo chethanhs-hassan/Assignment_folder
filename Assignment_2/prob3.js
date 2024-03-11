@@ -18,7 +18,7 @@ console.log(addition(a,b));
 console.log(subtraction(a,b));
 console.log(division(a,b));
 console.log(multiplication(a,b));
-//output:
+/*output:
 Enter the first value10
 Enter the second value5
 15
