@@ -13,7 +13,7 @@ console.log(typeof name);
 console.log(typeof arr);
 console.log(typeof obj);
 console.log(typeof boolean);
-//output
+/*output
 number
 string
 object
