@@ -1,0 +1,15 @@
+//Implement string reversal. dont use builtin function 
+
+function reversing(input){
+    let reversed ="";
+    for(let i =input.length-1; i>=0;i--){
+        reversed +=input[i];
+       
+
+    }
+    return reversed;
+}
+let string="apple"
+console.log(reversing(string)); 
+
+//output:elppa
